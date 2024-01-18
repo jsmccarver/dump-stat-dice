@@ -1,4 +1,10 @@
-const NavText = ({ children }) => {
+import { ReactNode } from 'react';
+
+interface NavTextProps {
+  children?: ReactNode;
+}
+
+const NavText = ({ children }: NavTextProps) => {
   return (
     <a
       href='#'
